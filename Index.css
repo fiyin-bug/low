@@ -60,7 +60,7 @@
     }
     .links{
         display: flex;
-        margin-bottom: ;
+        margin-bottom: 4px;
         text-decoration: none;
         align-items: center; /* Vertically align items */
         justify-content: space-between; /* Evenly space out the items */

@@ -36,7 +36,7 @@
   }
   
   .pop {
-    margin-left: 12px;
+    margin-left: 62px;
     font-size: 18px;
     font-weight: bold;
     color: #FFFFFF;
@@ -60,6 +60,7 @@
     }
     .links{
         display: flex;
+        margin-bottom: ;
         text-decoration: none;
         align-items: center; /* Vertically align items */
         justify-content: space-between; /* Evenly space out the items */

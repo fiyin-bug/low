@@ -247,3 +247,63 @@ font-size: 60px;
   text-decoration: none; /* Add this line */
   color: black; /* Add this line to set the color */
 }
+@media (max-width: 768px) {
+  .search-input {
+    width: 120px; /* Adjust width for smaller screens */
+  }
+}
+
+/* Adjust logo size and position for smaller screens */
+@media (max-width: 768px) {
+  .logo {
+    font-size: 60px; /* Decrease logo size */
+    margin-left: 75px; /* Adjust margin */
+  }
+}
+
+/* Adjust scrolling text font size for smaller screens */
+@media (max-width: 768px) {
+  .pop {
+    font-size: 14px; /* Decrease font size */
+    margin-left: 20px; /* Adjust margin */
+  }
+}
+
+@media (max-width: 768px) {
+  .limp {
+    
+    gap: 5px; /* Reduce gap between items */
+    align-items: center; /* Center align items */
+  }
+
+  
+
+  .limp a {
+    font-size: 14px; /* Further reduce font size for smaller screens */
+  }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .imagek {
+    width: 400px;
+    height: 300px;
+  }
+
+  .text-container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .add {
+    font-size: 13px; /* Adjust font size for smaller screens */
+  }
+
+  .gho a {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
